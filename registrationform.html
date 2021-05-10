@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>RIGISTRATION FORM</h2>
+
+    <form action="" method="GET">
+        <table>
+            <tr>
+                <td> <label for="name">NAME</label></td>
+                <td><input type="text" id="name" minlength="1" maxlength="10" required pattern="[A-Z]{1}[a-z]{1,-9}"
+                        placeholder="eg.Rahul"></td>
+            </tr>
+            <tr>
+                <td> <label for="phone">PHONENO</label></td>
+                <td><input type="number" id="phone" placeholder="enter phoneno"></td>
+
+
+            <tr>
+                <td><label for="mail">GMAIL</label></td>
+                <td><input type="email" id="mail" placeholder="eg.Rahul@gmail.com" /></td>
+            </tr>
+
+            </tr>
+            <td> <label for="DOB">DOB</label></td>
+            <td><input type="date" id="DOB"></td>
+            </tr>
+
+            <tr>
+                <td><label for="marks">ACADAMIC</label></td>
+                <td> <input type="number" id="marks" placeholder="eg.100%" /></td>
+            </tr>
+
+            <tr>
+                <td><label for="address">ADDRESS</label></td>
+                <td><input type="text" id="address" placeholder="Enter Address" /></td>
+            </tr>
+
+            <tr>
+                <td><label for="pincode">PIN CODE</label></td>
+                <td> <input type="number" id="pincode" placeholder="Enter Pin" /></td>
+            </tr>
+
+
+            <tr>
+                <td><label for="STATE">STATE</label></td>
+                <td>
+                    <select name="" id="STATE">
+                        <option value="">--select--</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Andrapradesh">Andrapradesh</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="idproof">ID PROOF</label>
+                <td><select name="" id="idproof">
+                        <option value="">--select--</option>
+                        <option value="Aadharcard">Aadharcard</option>
+                        <option value="vote Id">vote Id</option>
+                        <option value="DL">DL</option>
+                    </select></td>
+                <td><label for="id proof">IDPROOFNO</label></td>
+                <td><input type="number" id="id proof" pattern="[0-9[{20}" placeholder="Enter ID proofno"></td>
+            </tr>
+
+            <tr>
+                <td><label for="GENDER">GENDER</label>
+                </td>
+                <td><input type="radio" id="GENDER" name="Gender" />Male</td>
+                <td><input type="radio" id="GENDER" name="Gender" />Female</td>
+            </tr>
+
+
+            <tr>
+                <td><label for="LANGUAGE">LANGUAGE</label></td>
+                <td><input type="checkbox" name="Language" value="English" />English</td>
+                <td><input type="checkbox" name="Language" value="Kannada" />Kannada</td>
+                <td><input type="checkbox" name="Language" value="hindi" />Hindi</td>
+            </tr>
+            <tr>
+                <td> <label for="range">COMMINICATION</label></td>
+                <td><input type="range" id="range" /></td>
+            </tr>
+
+            <tr>
+                <td> <label for="photo">PHOTO</label></td>
+                <td><input type="file" id="photo" /></td>
+            </tr>
+
+            <tr>
+                <td><label for="sign">SIGNATURE</label></td>
+                <td> <input type="file" id="sign" /></td>
+            </tr>
+
+
+            <tr>
+                <td><label for="Resume">RESUME</label></td>
+                <td><input type="file" id="Resume" /></td>
+            </tr>
+        </table>
+        <button>submit</button>
+        <button>Reset</button>
+    </form>
+</body>
+
+</html>
